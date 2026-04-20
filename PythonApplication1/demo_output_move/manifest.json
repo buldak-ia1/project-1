@@ -1,0 +1,69 @@
+{
+  "run_id": "run-20260412-180900",
+  "project_name": "MetaSort",
+  "generated_at": "2026-04-12T18:09:00.063852",
+  "execution_mode": "move",
+  "sorted_root": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output_move\\Sorted",
+  "entry_count": 3,
+  "entries": [
+    {
+      "image_id": "img-22807bbb0c96",
+      "file_name": "broken.webp",
+      "source_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_input_move\\batch_b\\broken.webp",
+      "output_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output_move\\Sorted\\Uncertain\\Character_Unknown\\unique\\broken.webp",
+      "relative_output_path": "Sorted\\Uncertain\\Character_Unknown\\unique\\broken.webp",
+      "action": "move",
+      "status": "moved",
+      "category_path": [
+        "Uncertain",
+        "Character_Unknown",
+        "unique"
+      ],
+      "group_id": "unique",
+      "group_type": "unique",
+      "is_representative": true,
+      "error": null,
+      "issues": [
+        "invalid_image_header"
+      ]
+    },
+    {
+      "image_id": "img-bef5ce34a3a7",
+      "file_name": "miku_001.png",
+      "source_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_input_move\\batch_a\\miku_001.png",
+      "output_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output_move\\Sorted\\SFW\\Character_Miku\\near_duplicate_001\\miku_001.png",
+      "relative_output_path": "Sorted\\SFW\\Character_Miku\\near_duplicate_001\\miku_001.png",
+      "action": "move",
+      "status": "moved",
+      "category_path": [
+        "SFW",
+        "Character_Miku",
+        "near_duplicate_001"
+      ],
+      "group_id": "near_duplicate_001",
+      "group_type": "near_duplicate",
+      "is_representative": false,
+      "error": null,
+      "issues": []
+    },
+    {
+      "image_id": "img-c5ff09971e58",
+      "file_name": "miku_001.png",
+      "source_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_input_move\\batch_a\\variants\\miku_001.png",
+      "output_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output_move\\Sorted\\SFW\\Character_Miku\\near_duplicate_001\\miku_001_1.png",
+      "relative_output_path": "Sorted\\SFW\\Character_Miku\\near_duplicate_001\\miku_001_1.png",
+      "action": "move",
+      "status": "moved",
+      "category_path": [
+        "SFW",
+        "Character_Miku",
+        "near_duplicate_001"
+      ],
+      "group_id": "near_duplicate_001",
+      "group_type": "near_duplicate",
+      "is_representative": true,
+      "error": null,
+      "issues": []
+    }
+  ]
+}

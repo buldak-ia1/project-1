@@ -1,0 +1,101 @@
+{
+  "run_id": "run-20260412-180900",
+  "project_name": "MetaSort",
+  "source_root": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_input_move",
+  "output_root": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output_move",
+  "started_at": "2026-04-12T18:09:00.063852",
+  "status": "completed",
+  "image_count": 3,
+  "group_count": 2,
+  "extension_counts": {
+    ".png": 2,
+    ".webp": 1
+  },
+  "issue_counts": {
+    "invalid_image_header": 1
+  },
+  "summary": {
+    "scan": {
+      "source_root": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_input_move",
+      "include_subdirectories": true,
+      "supported_extensions": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ],
+      "visited_files": 4,
+      "image_candidates": 3,
+      "scanned_images": 2,
+      "skipped_non_images": 1,
+      "invalid_images": 1
+    },
+    "image_count": 3,
+    "metadata": {
+      "extracted_images": 2,
+      "png_text_images": 2,
+      "exif_images": 0,
+      "missing_metadata": 0,
+      "skipped_invalid_images": 1,
+      "failed_images": 0
+    },
+    "normalization": {
+      "normalized_images": 2,
+      "skipped_without_raw_metadata": 1,
+      "prompt_images": 2,
+      "model_images": 2,
+      "software_images": 1
+    },
+    "features": {
+      "processed_images": 2,
+      "skipped_invalid_images": 1,
+      "extracted_hashes": 2,
+      "failed_images": 0
+    },
+    "classification": {
+      "processed_images": 3,
+      "classified_images": 3,
+      "by_criterion": {
+        "character": {
+          "Character_Miku": 2,
+          "Character_Unknown": 1
+        },
+        "safety": {
+          "SFW": 2,
+          "Uncertain": 1
+        },
+        "similarity": {
+          "near_duplicate_001": 2,
+          "unique": 1
+        }
+      }
+    },
+    "grouping": {
+      "bucket_count": 2,
+      "group_count": 2,
+      "exact_duplicate_groups": 0,
+      "near_duplicate_groups": 1,
+      "unique_groups": 1,
+      "by_group_type": {
+        "near_duplicate": 1,
+        "unique": 1
+      }
+    },
+    "organization": {
+      "execution_mode": "move",
+      "sorted_root": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output_move\\Sorted",
+      "manifest_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output_move\\manifest.json",
+      "directories_touched": 2,
+      "copied_files": 0,
+      "moved_files": 3,
+      "analyze_only_files": 0,
+      "failed_files": 0,
+      "collision_renamed_files": 1
+    },
+    "reports": {
+      "csv_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output_move\\report.csv",
+      "summary_json_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output_move\\summary.json",
+      "run_log_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output_move\\run.log"
+    }
+  }
+}

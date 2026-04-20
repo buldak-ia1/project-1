@@ -1,0 +1,101 @@
+{
+  "policy_id": "policy-mvp-001",
+  "name": "MVP Style -> Character -> Similarity",
+  "description": "그림체 -> 캐릭터 -> 유사도 기준 정책",
+  "execution_mode": "analyze_only",
+  "include_subdirectories": true,
+  "similarity_threshold": 8.0,
+  "nsfw_threshold": 0.7,
+  "unclassified_handling": "place_in_unclassified",
+  "metadata_missing_handling": "visual_only",
+  "axes": [
+    {
+      "priority": 1,
+      "criterion": "style",
+      "display_name": "Style",
+      "unknown_label": "Style_Unknown",
+      "enabled": true
+    },
+    {
+      "priority": 2,
+      "criterion": "character",
+      "display_name": "Character",
+      "unknown_label": "Character_Unknown",
+      "enabled": true
+    },
+    {
+      "priority": 3,
+      "criterion": "similarity",
+      "display_name": "SimilarityGroup",
+      "unknown_label": "unique",
+      "enabled": true
+    }
+  ],
+  "extra_rules": {
+    "supported_extensions": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "character_keywords": {
+      "Miku": [
+        "miku",
+        "hatsune miku"
+      ]
+    },
+    "style_keywords": {
+      "Anime": [
+        "anime",
+        "illustration",
+        "cel shading",
+        "lineart"
+      ],
+      "Realistic": [
+        "photorealistic",
+        "realistic",
+        "photo",
+        "cinematic"
+      ],
+      "Painterly": [
+        "painterly",
+        "oil painting",
+        "brush",
+        "watercolor"
+      ],
+      "Chibi": [
+        "chibi",
+        "super deformed"
+      ]
+    },
+    "nsfw_keywords": [
+      "nsfw",
+      "nude",
+      "naked",
+      "breasts",
+      "nipples",
+      "sex",
+      "explicit",
+      "erotic",
+      "lingerie",
+      "underwear"
+    ],
+    "model_aliases": {
+      "nai-diffusion-4": [
+        "nai-diffusion-4",
+        "nai diffusion 4"
+      ]
+    },
+    "style_artist_similarity_threshold": 0.5,
+    "character_prompt_threshold": 0.42,
+    "prompt_family_threshold": 0.58,
+    "visual_similarity_threshold": 0.92,
+    "external_model": {
+      "enabled": true,
+      "provider": "auto",
+      "model_id": "openai/clip-vit-base-patch32",
+      "device": "cpu",
+      "normalize_embeddings": true
+    }
+  }
+}

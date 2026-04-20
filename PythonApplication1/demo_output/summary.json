@@ -1,0 +1,115 @@
+{
+  "run_id": "run-20260415-211944",
+  "project_name": "MetaSort",
+  "source_root": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_input",
+  "output_root": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output",
+  "started_at": "2026-04-15T21:19:44.831711",
+  "status": "completed",
+  "image_count": 5,
+  "group_count": 3,
+  "extension_counts": {
+    ".png": 4,
+    ".webp": 1
+  },
+  "issue_counts": {
+    "invalid_image_header": 1
+  },
+  "summary": {
+    "scan": {
+      "source_root": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_input",
+      "include_subdirectories": true,
+      "supported_extensions": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ],
+      "visited_files": 6,
+      "image_candidates": 5,
+      "scanned_images": 4,
+      "skipped_non_images": 1,
+      "invalid_images": 1
+    },
+    "image_count": 5,
+    "metadata": {
+      "extracted_images": 4,
+      "png_text_images": 4,
+      "exif_images": 0,
+      "missing_metadata": 0,
+      "skipped_invalid_images": 1,
+      "failed_images": 0
+    },
+    "normalization": {
+      "normalized_images": 4,
+      "skipped_without_raw_metadata": 1,
+      "prompt_images": 4,
+      "model_images": 4,
+      "software_images": 3,
+      "artist_images": 0,
+      "character_prompt_images": 4
+    },
+    "features": {
+      "processed_images": 4,
+      "skipped_invalid_images": 1,
+      "extracted_hashes": 4,
+      "extracted_embeddings": 4,
+      "external_embeddings": 0,
+      "local_embeddings": 4,
+      "embedding_backend": "transformers_clip",
+      "requested_embedding_provider": "auto",
+      "using_external_backend": true,
+      "failed_images": 0
+    },
+    "classification": {
+      "processed_images": 5,
+      "classified_images": 5,
+      "by_criterion": {
+        "character": {
+          "CharacterPrompt_002": 2,
+          "Character_Miku": 2,
+          "Character_Unknown": 1
+        },
+        "similarity": {
+          "near_duplicate_001": 2,
+          "near_duplicate_002": 2,
+          "unique": 1
+        },
+        "style": {
+          "StyleFamily_001": 2,
+          "StyleFamily_002": 2,
+          "Style_Unknown": 1
+        }
+      }
+    },
+    "grouping": {
+      "bucket_count": 3,
+      "group_count": 3,
+      "exact_duplicate_groups": 0,
+      "near_duplicate_groups": 2,
+      "same_prompt_family_groups": 0,
+      "same_model_series_groups": 0,
+      "visual_similar_groups": 0,
+      "unique_groups": 1,
+      "by_group_type": {
+        "near_duplicate": 2,
+        "unique": 1
+      }
+    },
+    "organization": {
+      "execution_mode": "analyze_only",
+      "sorted_root": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output\\Sorted",
+      "manifest_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output\\manifest.json",
+      "directories_touched": 3,
+      "copied_files": 0,
+      "moved_files": 0,
+      "analyze_only_files": 5,
+      "failed_files": 0,
+      "collision_renamed_files": 1
+    },
+    "reports": {
+      "csv_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output\\report.csv",
+      "summary_json_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output\\summary.json",
+      "run_log_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output\\run.log"
+    }
+  }
+}

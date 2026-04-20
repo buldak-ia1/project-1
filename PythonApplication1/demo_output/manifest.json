@@ -1,0 +1,107 @@
+{
+  "run_id": "run-20260415-211944",
+  "project_name": "MetaSort",
+  "generated_at": "2026-04-15T21:19:44.831711",
+  "execution_mode": "analyze_only",
+  "sorted_root": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output\\Sorted",
+  "entry_count": 5,
+  "entries": [
+    {
+      "image_id": "img-45adccbc18b8",
+      "file_name": "broken.webp",
+      "source_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_input\\batch_b\\broken.webp",
+      "output_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output\\Sorted\\Style_Unknown\\Character_Unknown\\unique\\broken.webp",
+      "relative_output_path": "Sorted\\Style_Unknown\\Character_Unknown\\unique\\broken.webp",
+      "action": "analyze_only",
+      "status": "analyze_only",
+      "category_path": [
+        "Style_Unknown",
+        "Character_Unknown",
+        "unique"
+      ],
+      "group_id": "unique",
+      "group_type": "unique",
+      "is_representative": true,
+      "error": null,
+      "issues": [
+        "invalid_image_header"
+      ]
+    },
+    {
+      "image_id": "img-b00542cbf759",
+      "file_name": "miku_001.png",
+      "source_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_input\\batch_a\\miku_001.png",
+      "output_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output\\Sorted\\StyleFamily_001\\Character_Miku\\near_duplicate_001\\miku_001.png",
+      "relative_output_path": "Sorted\\StyleFamily_001\\Character_Miku\\near_duplicate_001\\miku_001.png",
+      "action": "analyze_only",
+      "status": "analyze_only",
+      "category_path": [
+        "StyleFamily_001",
+        "Character_Miku",
+        "near_duplicate_001"
+      ],
+      "group_id": "near_duplicate_001",
+      "group_type": "near_duplicate",
+      "is_representative": false,
+      "error": null,
+      "issues": []
+    },
+    {
+      "image_id": "img-ba7ceac67181",
+      "file_name": "miku_001.png",
+      "source_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_input\\batch_a\\variants\\miku_001.png",
+      "output_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output\\Sorted\\StyleFamily_001\\Character_Miku\\near_duplicate_001\\miku_001_1.png",
+      "relative_output_path": "Sorted\\StyleFamily_001\\Character_Miku\\near_duplicate_001\\miku_001_1.png",
+      "action": "analyze_only",
+      "status": "analyze_only",
+      "category_path": [
+        "StyleFamily_001",
+        "Character_Miku",
+        "near_duplicate_001"
+      ],
+      "group_id": "near_duplicate_001",
+      "group_type": "near_duplicate",
+      "is_representative": true,
+      "error": null,
+      "issues": []
+    },
+    {
+      "image_id": "img-355c6391c39c",
+      "file_name": "unknown_hero_001.png",
+      "source_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_input\\batch_c\\unknown_hero_001.png",
+      "output_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output\\Sorted\\StyleFamily_002\\CharacterPrompt_002\\near_duplicate_002\\unknown_hero_001.png",
+      "relative_output_path": "Sorted\\StyleFamily_002\\CharacterPrompt_002\\near_duplicate_002\\unknown_hero_001.png",
+      "action": "analyze_only",
+      "status": "analyze_only",
+      "category_path": [
+        "StyleFamily_002",
+        "CharacterPrompt_002",
+        "near_duplicate_002"
+      ],
+      "group_id": "near_duplicate_002",
+      "group_type": "near_duplicate",
+      "is_representative": true,
+      "error": null,
+      "issues": []
+    },
+    {
+      "image_id": "img-ca1fdc59be99",
+      "file_name": "unknown_hero_002.png",
+      "source_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_input\\batch_c\\unknown_hero_002.png",
+      "output_path": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\demo_output\\Sorted\\StyleFamily_002\\CharacterPrompt_002\\near_duplicate_002\\unknown_hero_002.png",
+      "relative_output_path": "Sorted\\StyleFamily_002\\CharacterPrompt_002\\near_duplicate_002\\unknown_hero_002.png",
+      "action": "analyze_only",
+      "status": "analyze_only",
+      "category_path": [
+        "StyleFamily_002",
+        "CharacterPrompt_002",
+        "near_duplicate_002"
+      ],
+      "group_id": "near_duplicate_002",
+      "group_type": "near_duplicate",
+      "is_representative": false,
+      "error": null,
+      "issues": []
+    }
+  ]
+}

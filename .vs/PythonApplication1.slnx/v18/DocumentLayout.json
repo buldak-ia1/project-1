@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE3CD58-4694-426A-9A72-1B5FE23CD4A3}|PythonApplication1\\PythonApplication1.pyproj|C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\MetaSortWeb.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CEE3CD58-4694-426A-9A72-1B5FE23CD4A3}|PythonApplication1\\PythonApplication1.pyproj|solutionrelative:PythonApplication1\\MetaSortWeb.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MetaSortWeb.py",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\MetaSortWeb.py",
+              "RelativeDocumentMoniker": "PythonApplication1\\MetaSortWeb.py",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\PythonApplication1\\PythonApplication1\\MetaSortWeb.py",
+              "RelativeToolTip": "PythonApplication1\\MetaSortWeb.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-04-12T12:05:02.959Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

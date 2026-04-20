@@ -1,0 +1,154 @@
+{
+  "run_id": "run-20260412-163000",
+  "project_name": "MetaSort",
+  "source_root": "D:\\AI\\images",
+  "output_root": "D:\\AI\\sorted",
+  "started_at": "2026-04-12T16:30:00",
+  "status": "planned",
+  "policy": {
+    "policy_id": "policy-mvp-001",
+    "name": "MVP Safety -> Character -> Similarity",
+    "description": "1차 MVP 기준 정책",
+    "execution_mode": "copy",
+    "include_subdirectories": true,
+    "similarity_threshold": 8.0,
+    "nsfw_threshold": 0.7,
+    "unclassified_handling": "place_in_unclassified",
+    "metadata_missing_handling": "visual_only",
+    "axes": [
+      {
+        "priority": 1,
+        "criterion": "safety",
+        "display_name": "Safety",
+        "unknown_label": "Uncertain",
+        "enabled": true
+      },
+      {
+        "priority": 2,
+        "criterion": "character",
+        "display_name": "Character",
+        "unknown_label": "Character_Unknown",
+        "enabled": true
+      },
+      {
+        "priority": 3,
+        "criterion": "similarity",
+        "display_name": "SimilarityGroup",
+        "unknown_label": "unique",
+        "enabled": true
+      }
+    ],
+    "extra_rules": {
+      "supported_extensions": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ],
+      "character_keywords": {
+        "Miku": [
+          "miku",
+          "hatsune miku"
+        ]
+      }
+    }
+  },
+  "images": [
+    {
+      "image_id": "img-0001",
+      "file_name": "miku_sunset.png",
+      "file_path": "D:\\AI\\images\\miku_sunset.png",
+      "extension": ".png",
+      "file_size_bytes": 3812451,
+      "width": 1024,
+      "height": 1536,
+      "checksum_sha256": "3f5bc6f9d35ceff7b286a4d3f724fbff6cc75a0b5a9f3a6c7f9ee31dc761b0ab",
+      "raw_metadata": {
+        "source_format": "png_text",
+        "extracted_at": "2026-04-12T16:30:00",
+        "raw_text": {
+          "parameters": "masterpiece, best quality, hatsune miku, sunset, city lights"
+        },
+        "exif": {},
+        "png_text": {
+          "Software": "NovelAI"
+        }
+      },
+      "normalized_metadata": {
+        "prompt": "masterpiece, best quality, hatsune miku, sunset, city lights",
+        "negative_prompt": "low quality, blurry",
+        "seed": 123456789,
+        "sampler": "k_euler",
+        "steps": 28,
+        "cfg_scale": 6.5,
+        "model": "nai-diffusion-4",
+        "software": "NovelAI",
+        "width": 1024,
+        "height": 1536,
+        "extra": {}
+      },
+      "feature": {
+        "perceptual_hash": "8f3c7a1d9b4e20ff",
+        "difference_hash": "1f3e7cfc8e0c1031",
+        "embedding_vector": [],
+        "aspect_ratio": 0.6666666666666666,
+        "dominant_tags": [
+          "anime",
+          "girl",
+          "city"
+        ]
+      },
+      "category_results": [
+        {
+          "axis_priority": 1,
+          "criterion": "safety",
+          "category_key": "sfw",
+          "category_label": "SFW",
+          "confidence": 0.94,
+          "reason": "nsfw keyword not detected"
+        },
+        {
+          "axis_priority": 2,
+          "criterion": "character",
+          "category_key": "character_miku",
+          "category_label": "Character_Miku",
+          "confidence": 0.91,
+          "reason": "prompt keyword matched 'hatsune miku'"
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "groups": [
+    {
+      "group_id": "grp-near-001",
+      "category_path": [
+        "SFW",
+        "Character_Miku"
+      ],
+      "group_type": "near_duplicate",
+      "representative_image_id": "img-0001",
+      "members": [
+        {
+          "image_id": "img-0001",
+          "relation_score": 1.0,
+          "is_representative": true
+        }
+      ]
+    }
+  ],
+  "logs": [
+    {
+      "timestamp": "2026-04-12T16:30:00",
+      "level": "INFO",
+      "message": "Stage 1 data model scaffold created.",
+      "image_id": null,
+      "context": {}
+    }
+  ],
+  "summary": {
+    "image_count": 1,
+    "group_count": 1,
+    "supported_extensions": 4
+  }
+}
